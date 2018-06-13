@@ -1,0 +1,22 @@
+﻿Problem statement :
+	You are given a number n and number of queries(q)
+	 
+	‘n’ ---->Represents the length of the array
+	That is for a given n you need to create list of elements initialised with 0
+	For example if n = 5
+	Then if a=array / list 
+	a=[0,0,0,0,0]
+	Then you are provided with 2 types of queries
+	1st Query ------->	0 p q val
+	That is values in the range p to q (both p and q inclusive) must be updated 	to the value “val”
+	Example :
+		a=[0,0,0,0,0] for n=5 and 
+		query=0 0 4 1
+		then a=[1,1,1,1,1]
+	2nd Query-------->1 p q
+	You need to find the sum in the range [p,q] both (p and q inclusive)
+	Example :
+		a=[1,2,3,4,5]	
+		query=1 0 3
+		Then the answer is 6 [(1+2+3)]
+
